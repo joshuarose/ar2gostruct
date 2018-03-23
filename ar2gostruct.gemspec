@@ -22,8 +22,8 @@ Gem::Specification.new do |spec|
   spec.extra_rdoc_files = ["README.md"]
   spec.rdoc_options     = ["--line-numbers", "--inline-source", "--title", "ar2gostruct"]
 
-  spec.add_dependency "rake", ">= 0.8.7"
-  spec.add_dependency "activerecord", ">= 2.3.0"
-  spec.add_dependency "activesupport", ">= 2.3.0"
+  spec.add_dependency "rake", "~> 10.4"
+  spec.add_dependency "activerecord", ">= 5.1.0"
+  spec.add_dependency "activesupport", ">= 5.1.0"
   spec.add_development_dependency "rspec"
 end
